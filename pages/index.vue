@@ -7,11 +7,11 @@
           id="banner"
           :slides="[{
             floatingImage: '/assets/images/me.jpeg',
-            title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-            subtitle: 'Suspendisse potenti. Nunc vel tortor diam. Pellentesque habitant morbi tristique.',
+            title: 'Hi I\'m Michael a Senior Front End Developer based in Dundee, Scotland',
+            subtitle: 'With 7 years in the industry creating websites',
             buttons: [{
               text: 'Get in touch',
-              link: '/',
+              link: 'mailto:michael@uplord.co.uk',
               class: 'large'
             }],
             class: ''
@@ -24,11 +24,14 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
 
-      }
-    }
+  export default {
+    setup () {
+      useHead({
+        bodyAttrs: {
+          class: 'homepage'
+        }
+      })
+    },
   }
 </script>
