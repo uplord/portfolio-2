@@ -18,6 +18,22 @@
           }]"
         />
 
+        <BlockSection
+          id="about-me"
+          :sections="[{
+            image: '/assets/images/me.png',
+            subtitle: 'About Michael Allen',
+            title: 'Front End Development',
+            content: '<p>I\'m an experienced Front End Developer who has excellent collaboration, organization and teamwork skills with a keen attention to detail. Passionate about developing in HTML, CSS and JavaScript and always open to exploring new technologies. Over the last 7 years I have dealt with a variety of small and large clients. This has helped by my strong analytical, debugging and problem-solving skills to create exceptional websites.</p>',
+            buttons: [{
+              text: 'Get in touch',
+              link: 'mailto:michael@uplord.co.uk',
+              class: 'large'
+            }],
+            class: ''
+          }]"
+        />
+
       </div>
     </section>
   </main>
