@@ -34,6 +34,97 @@
           }]"
         />
 
+        <BlockCards
+          id="projects"
+          classes="text-center alignwide mobile-2"
+          title="Projects I've Worked On"
+          :cards="[{
+            svg: 'brewdog',
+            title: 'Brewdog',
+            class: 'mini middle text-center',
+            textHover: false,
+            hideText: true,
+            tooltip: 'Brewdog'
+          },{
+            svg: 'gdk',
+            title: 'German Doner Kebab',
+            class: 'mini middle text-center',
+            textHover: false,
+            hideText: true,
+            tooltip: 'German Doner Kebab'
+          },{
+            svg: 'subway',
+            title: 'Subway',
+            class: 'mini middle text-center',
+            textHover: false,
+            hideText: true,
+            tooltip: 'Subway'
+          },{
+            svg: 'superga',
+            title: 'Superga',
+            class: 'mini middle text-center',
+            textHover: false,
+            hideText: true,
+            tooltip: 'Supega'
+          },{
+            svg: 'umbro',
+            title: 'Umbro UK',
+            class: 'mini middle text-center',
+            textHover: false,
+            hideText: true,
+            tooltip: 'Umbro UK'
+          },{
+            svg: 'dundeeunited',
+            title: 'Dundee United',
+            class: 'mini middle text-center',
+            textHover: false,
+            hideText: true,
+            tooltip: 'Dundee United Football Club'
+          },{
+            svg: 'hungrrr',
+            title: 'Hungrrr',
+            class: 'mini middle text-center',
+            textHover: false,
+            hideText: true,
+            tooltip: 'Hungrrr'
+          },{
+            svg: 'snappy',
+            title: 'Snappy Shopper',
+            class: 'mini middle text-center',
+            textHover: false,
+            hideText: true,
+            tooltip: 'Snappy Shopper'
+          },{
+            svg: 'macdonalds',
+            title: 'Macdonald Hotels and Resorts',
+            class: 'mini middle text-center',
+            textHover: false,
+            hideText: true,
+            tooltip: 'Macdonald Hotels and Resorts'
+          },{
+            svg: 'campbells',
+            title: 'Campbells Meat',
+            class: 'mini middle text-center',
+            textHover: false,
+            hideText: true,
+            tooltip: 'Campbells Meat'
+          },{
+            image: '/assets/images/petervardy.png',
+            title: 'Peter Vardy',
+            class: 'mini middle text-center',
+            textHover: false,
+            hideText: true,
+            tooltip: 'Peter Vardy'
+          },{
+            image: '/assets/images/carmoney.png',
+            title: 'Carmoney',
+            class: 'mini middle text-center',
+            textHover: false,
+            hideText: true,
+            tooltip: 'CarMoney'
+          }]"
+        />
+
       </div>
     </section>
   </main>
