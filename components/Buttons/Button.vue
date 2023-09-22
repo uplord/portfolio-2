@@ -1,5 +1,5 @@
 <template>
-  <component :is="button.type || 'div'" :to="button.link" :class="['button', button.class]">
+  <component :is="button.type || 'div'" :href="button.link" :class="['button', button.class]">
     {{ button.text }}
   </component>
 </template>
